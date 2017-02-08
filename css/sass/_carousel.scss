@@ -1,3 +1,13 @@
 .carousel {
 
+	&__inner {
+		display:flex;
+		flex-wrap: nowrap;
+		overflow: hidden;
+	}
+
+	&__item {
+		width:100%;
+	}
+
 }

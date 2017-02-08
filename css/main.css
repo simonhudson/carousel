@@ -1,3 +1,8 @@
-
+.carousel__inner {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden; }
+.carousel__item {
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
