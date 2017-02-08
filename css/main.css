@@ -1,8 +1,26 @@
-.carousel__inner {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow: hidden; }
-.carousel__item {
-  width: 100%; }
+.has-js .carousel {
+  position: relative;
+  width: 500px; }
+  .has-js .carousel__inner {
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0; }
+  .has-js .carousel__item {
+    background: #ededed;
+    display: inline-block;
+    float: left;
+    padding: 20px; }
+  .has-js .carousel-nav {
+    float: left;
+    margin-top: 10px; }
+    .has-js .carousel-nav--linear__item {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
+      .has-js .carousel-nav--linear__item:first-of-type {
+        left: 0; }
+      .has-js .carousel-nav--linear__item:last-of-type {
+        right: 0; }
 
 /*# sourceMappingURL=main.css.map */
